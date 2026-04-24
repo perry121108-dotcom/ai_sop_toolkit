@@ -1,10 +1,10 @@
-# ai-dev-sop-toolkit
+# ai_sop_toolkit
 
 A lightweight Python CLI toolkit that bootstraps an AI-driven development SOP into any new project directory.
 
 ## 中文說明
 
-`ai-dev-sop-toolkit` 是一個輕量的 Python CLI 工具，目的是在任何新專案資料夾中，快速建立一套 AI 協作開發 SOP。
+`ai_sop_toolkit` 是一個輕量的 Python CLI 工具，目的是在任何新專案資料夾中，快速建立一套 AI 協作開發 SOP。
 
 安裝完成後，只要在目標專案資料夾執行：
 
@@ -73,7 +73,7 @@ These files help standardize requirement discovery, task tracking, validation, a
 ## Project Structure
 
 ```text
-ai-dev-sop-toolkit/
+ai_sop_toolkit/
 ├── setup.py
 ├── README.md
 └── ai_sop_toolkit/
@@ -135,22 +135,20 @@ py -m pytest
 
 ## Publish To GitHub
 
-Create a new repository and push this folder:
+Push this folder to the configured GitHub repository:
 
 ```bash
-git init
 git add .
-git commit -m "Initial release of ai-dev-sop-toolkit"
-git branch -M main
-git remote add origin https://github.com/<your-account>/ai-dev-sop-toolkit.git
-git push -u origin main
+git commit -m "Update ai_sop_toolkit"
+git push
 ```
 
-Before publishing, update the repository URL in `setup.py` and `pyproject.toml` if you move this project to a different GitHub repository.
+If you move this project to a different repository later, update the URLs in `setup.py` and `pyproject.toml`.
 
 ## Development Notes
 
-- Entry point: `ai-sop`
+- Package name: `ai_sop_toolkit`
+- CLI command: `ai-sop`
 - Main CLI implementation: `ai_sop_toolkit/cli.py`
 - Template assets live in: `ai_sop_toolkit/templates/`
 
