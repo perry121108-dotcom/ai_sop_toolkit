@@ -25,8 +25,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/perry121108-dotcom/fluffy-palm-tree.git"
-Repository = "https://github.com/perry121108-dotcom/fluffy-palm-tree.git"
+Homepage = "https://github.com/perry121108-dotcom/ai_agent_sop_toolkit"
+Repository = "https://github.com/perry121108-dotcom/ai_agent_sop_toolkit"
 
 [project.scripts]
 ai-sop = "ai_sop_toolkit.cli:main"

@@ -5,6 +5,7 @@ import click
 
 
 @click.group()
+@click.version_option(version="1.3.0", prog_name="ai-sop")
 def main():
     """AI 開發系統化 SOP 工具套件 (V1.3 - Agent Team 架構)"""
 

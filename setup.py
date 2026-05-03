@@ -26,7 +26,7 @@ setup(
     description="A CLI toolkit for bootstrapping an AI Agent Team development SOP.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/perry121108-dotcom/fluffy-palm-tree.git",
+    url="https://github.com/perry121108-dotcom/ai_agent_sop_toolkit",
     license="MIT",
     python_requires=">=3.9",
     classifiers=[
